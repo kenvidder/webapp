@@ -1,9 +1,7 @@
 import os
 
 from flask import Flask
-'''
-doc
-'''
+
 app = Flask(__name__)
 
 @app.route('/')
